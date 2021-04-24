@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-title>{{courses.title}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/techcourse/tabs/cathegories" ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-card> 
+        <ion-card-header>
+          <ion-title>{{courses.title}} </ion-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <p>{{courses.content}}</p>
+
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
